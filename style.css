@@ -1,0 +1,81 @@
+html body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'stencil';
+    margin: 0 0 3px 0;
+}
+
+h2{
+    font-family: 'Times New Roman';
+    margin: 0;
+}
+
+nav{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+#home{
+    padding-top: 10%;
+    height: 45vh;
+    background: linear-gradient(to bottom,
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0)),
+    url("bbq.avif");
+    background-size: cover;
+}
+
+#home h1{
+    font-family: stencil;
+    margin: 0 0 0 10%;
+    font-size: 15vh;
+    color: red;
+}
+
+#home h3{
+    font-family: 'broadway';
+    margin: 0;
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+}
+
+#selection{
+    background-color: black;
+    height: 90vh;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#menu{
+    height: 90vh;
+    background: url("grill.jpeg")
+    no-repeat;
+    background-position: 0 60%;
+    background-size: cover;
+}
+
+#featured{
+    height: 75vh;
+}
+
+#container{
+    height: 145vh;
+    display: grid;
+    color: whitesmoke;
+    background: url("charred.avif")
+    no-repeat;
+    background-position: 0 30%;
+    background-size: cover;
+}
+
+#items img{
+    margin: 3%;
+    background: white;
+    cursor: pointer;
+}
